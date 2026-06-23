@@ -21,11 +21,12 @@ void loop() {
     delay(10);
   }
 
+
   // 逐渐变暗
   for(int dutyCycle = 255; dutyCycle >= 0; dutyCycle--){
     ledcWrite(ledPin, dutyCycle);   
     delay(10);
   }
-  
+   
   Serial.println("Breathing cycle completed");
 }
