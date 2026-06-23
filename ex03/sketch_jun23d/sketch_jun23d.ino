@@ -31,6 +31,7 @@ void loop() {
   digitalWrite(LED_PIN, led);
   isLight = !isLight;
 
+
   if (!isLight) {
     cnt++;
     if (cnt >= 3) {
