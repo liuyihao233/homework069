@@ -5,6 +5,7 @@ const unsigned long interval = 500; // 500ms翻转一次，1Hz
 bool ledState = LOW;
 
 void setup() {
+ 
   pinMode(LED_PIN, OUTPUT);
 }
 
