@@ -20,6 +20,7 @@ void setup() {
   pinMode(LED_PIN, OUTPUT);
 }
 
+
 void loop() {
   currTime = millis();
   if (currTime - prevTime < (isLight ? (phase==0||phase==2 ? shortOn : longOn) : (phase==0||phase==2 ? shortOff : longOff)))
